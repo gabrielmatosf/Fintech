@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visão Geral</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <div class="container-fluid">
+        <header class="header py-3 mb-4 bg-light border-bottom shadow-sm">
+            <div class="d-flex justify-content-between align-items-center">
+                <i class="icon">☰</i>
+                <h2>Visão Geral</h2>
+                <i class="icon">⚙️</i>
+            </div>
+        </header>
+
+        <div class="row mb-4">
+            <div class="col-md-12">
+                <div class="card text-center bg-light shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">Outubro <br> Saldo atual <i>👁️</i></h5>
+                        <h2 class="card-text">R$ 2.642,32</h2>
+                        <div class="d-flex justify-content-around">
+                            <div class="text-success">
+                                <i class="icon">⬆️</i><br>
+                                <strong>Receitas</strong><br>
+                                R$ 0,00
+                            </div>
+                            <div class="text-danger">
+                                <i class="icon">⬇️</i><br>
+                                <strong>Despesas</strong><br>
+                                R$ 0,00
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mb-4">
+            <div class="card bg-light shadow-sm">
+                <div class="card-body">
+                    <h6 class="card-title">Transações</h6>
+                    <div class="d-flex justify-content-between">
+                        <div class="text-center">
+                            <div class="transaction-icon">💲</div>
+                            <button class="btn hover-button"><strong>Saldo</strong></button>
+                        </div>
+                        <div class="text-center">
+                            <div class="transaction-icon">💲</div>
+                            <button class="btn hover-button"><strong>Despesas</strong></button>
+                        </div>
+                        <div class="text-center">
+                            <div class="transaction-icon">💲</div>
+                            <button class="btn hover-button"><strong>Investimentos</strong></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mb-4">
+            <div class="card bg-light shadow-sm">
+                <div class="card-body d-flex justify-content-between align-items-center">
+                    <div class="d-flex align-items-center">
+                        <div class="transaction-icon mr-3">💳</div>
+                        <span>Você ainda não possui cartões cadastrados.</span>
+                    </div>
+                    <button class="btn btn-danger hover-button">Adicionar Cartão</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
